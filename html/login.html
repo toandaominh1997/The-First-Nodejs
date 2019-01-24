@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="../css/login.css">
+            <script src = "/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+            <p id="demo"></p>
+        <div id="login" class="modal">
+            <form class="modal-content animate">
+                <div class="imgcontainer">
+                    <img src="../images/avatar.jpg" alt="Avater" class="avatar">
+                </div>
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" >
+                    <label for="psw"><b>Password</b></label>
+                    <input type="text" placeholder="Enter Password" name="psw" >
+                    <Button location.href='home.html' id="mylogin" type="submit">Login</Button>
+                    <label><input type="checkbox" checked="checked" name="remember">Remember me</label>
+              </div>
+              <form action="/home.html">
+                <button type="link" class="btn btn-primary btn-lg">View Work</button>
+                </form>
+              <div class="container">
+                  <span class="psw">Forgot <a href="#">password</a></span>
+              </div>
+              
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
